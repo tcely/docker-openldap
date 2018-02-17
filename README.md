@@ -1,5 +1,5 @@
 # docker-openldap
-OpenLDAP (slapd) running on Alpine Linux
+Docker image of OpenLDAP (slapd) based on Alpine Linux
 
 
 #### Example `docker-compose.yml`
