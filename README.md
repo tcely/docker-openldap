@@ -1,3 +1,5 @@
+ARCHIVED: Use `tcely/alpine-aports:openldap` instead.
+
 # docker-openldap
 Docker image of OpenLDAP (slapd) based on Alpine Linux
 
@@ -7,7 +9,7 @@ Docker image of OpenLDAP (slapd) based on Alpine Linux
 version: '3'
 services:
   slapd:
-    image: 'tcely/openldap'
+    image: 'tcely/alpine-aports:openldap'
     restart: 'unless-stopped'
     hostname: 'ldap.example.net'
     healthcheck:
